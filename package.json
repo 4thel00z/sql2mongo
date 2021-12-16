@@ -1,0 +1,15 @@
+{
+  "name": "sql2mongo",
+  "version": "1.0.0",
+  "description": "A package to translate sql 2 mongo",
+  "main": "index.js",
+  "repository": "https://github.com/4thel00z/sql2mongo.js",
+  "author": "4thel00z <4thel00z@gmail.com>",
+  "license": "GPL-3",
+  "private": true,
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "express": "^4.17.1",
+    "node-sql-parser": "^3.9.4"
+  }
+}
