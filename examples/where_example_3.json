@@ -1,0 +1,3 @@
+{
+  "statement": "SELECT *\nFROM people\nWHERE status = \"A\""
+}
