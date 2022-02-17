@@ -1,0 +1,17 @@
+---
+apiVersion: 1.0.0
+metadata:
+  name: sql2mongo
+projects:
+  - name: sql2mongo
+    source:
+      type: git
+      location: 'https://github.com/4thel00z/sql2mongo.git'
+components:
+  - alias: theia-editor
+    type: cheEditor
+    id: eclipse/che-theia/next
+  - alias: exec-plugin
+    type: chePlugin
+    id: eclipse/che-machine-exec-plugin/0.0.1
+
